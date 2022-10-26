@@ -1,0 +1,18 @@
+package com.ilpexperion.assignment1;
+
+public class Q15RemoveOccuranceOfArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int array[] = {18,18,25,25,25,28,28,29};
+		int length = array.length;
+		length = removeDuplicates(array, length);
+		//Printing The array elements
+		for(int i=0; i<length; i++)
+		System.out.print(array[i]+" ");
+		
+	}
+
+	}
+
+

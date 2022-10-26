@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.experion.entity.Product"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.experion.service.Service"/>
+    <fullyQualifiedTypeName name="com.experionen.entity.Product"/>
+    <fullyQualifiedTypeName name="com.experionen.entity.Account"/>
+    <fullyQualifiedTypeName name="com.experionen.entity.Card"/>
+    <fullyQualifiedTypeName name="com.experion.service.AccountCardServices"/>
+    <fullyQualifiedTypeName name="com.experion.entity.SavingsMaxAccount"/>
+    <fullyQualifiedTypeName name="com.experion.service.Createproduct"/>
+    <fullyQualifiedTypeName name="com.experion.entity.BankProducts"/>
+    <fullyQualifiedTypeName name="com.experion.service.CashDeposite"/>
+    <fullyQualifiedTypeName name="com.experion.entity.Account"/>
+    <fullyQualifiedTypeName name="com.experion.service.SavingsMaxAccount"/>
+    <fullyQualifiedTypeName name="com.bank.service.CreateAccount"/>
+    <fullyQualifiedTypeName name="com.bank.entity.Customer"/>
+    <fullyQualifiedTypeName name="com.bank.entity.Account"/>
+</qualifiedTypeNameHistroy>

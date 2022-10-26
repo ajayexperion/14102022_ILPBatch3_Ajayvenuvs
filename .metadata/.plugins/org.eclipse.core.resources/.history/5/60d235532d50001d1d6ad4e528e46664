@@ -1,0 +1,8 @@
+package com.experionen.entity;
+
+public interface AccountCardService {
+
+	
+	
+	
+}

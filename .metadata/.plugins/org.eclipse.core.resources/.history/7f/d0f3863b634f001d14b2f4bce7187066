@@ -1,0 +1,5 @@
+package com.experionen.entity;
+
+public class Account extends Product {
+
+}

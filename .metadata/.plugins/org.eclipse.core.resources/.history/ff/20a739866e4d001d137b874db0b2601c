@@ -1,0 +1,17 @@
+package com.ilpexperion.assignment1;
+
+import java.util.Scanner;
+
+public class ThreeNumberDescending {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		int firstNumber;
+		int secondNumber;
+		int thirdNumber;
+		System.out.println("enter the numbers: ");
+		firstNumber=scanner.nextInt();
+		}
+
+}

@@ -1,0 +1,14 @@
+package com.experionen.entity;
+
+
+
+public class Account{
+	
+	
+private String accountNumber;
+private double accountBalance;
+
+
+
+
+}

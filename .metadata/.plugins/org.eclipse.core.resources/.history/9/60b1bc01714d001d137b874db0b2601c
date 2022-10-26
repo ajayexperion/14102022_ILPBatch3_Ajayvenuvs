@@ -1,0 +1,57 @@
+package com.ilpexperion.assignment1;
+
+import java.util.Scanner;
+
+public class ThreeNumberDescending {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		int firstNumber;
+		int secondNumber;
+		int thirdNumber;
+		int temp;
+		System.out.println("enter the numbers: ");
+		firstNumber=scanner.nextInt();
+		secondNumber=scanner.nextInt();
+		thirdNumber=scanner.nextInt();
+		if(firstNumber<secondNumber) {
+			temp=firstNumber;
+			firstNumber=secondNumber;
+			secondNumber=temp;
+			if(secondNumber<thirdNumber) {
+				temp=secondNumber;
+				secondNumber=thirdNumber;
+				thirdNumber=temp;
+				
+			}
+		}
+		if(firstNumber<thirdNumber) {
+			temp=firstNumber;
+			firstNumber=thirdNumber;
+			thirdNumber=temp;
+			if(secondNumber<thirdNumber) {
+				temp=secondNumber;
+				secondNumber=thirdNumber;
+				thirdNumber=temp;
+				
+			}
+		}
+		if(secondNumber<thirdNumber) {
+			temp=secondNumber;
+			secondNumber=thirdNumber;
+			thirdNumber=temp;
+//			if(secondNumber<firstNumber) {
+//				temp=secondNumber;
+//				secondNumber=thirdNumber;
+//				thirdNumber=temp;
+//				
+//			}
+		}
+		System.out.println(firstNumber);
+		System.out.println(secondNumber);
+		System.out.println(thirdNumber);
+		
+		}
+
+}

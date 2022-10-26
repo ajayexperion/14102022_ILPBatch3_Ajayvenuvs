@@ -1,0 +1,16 @@
+package com.experionen.entity;
+
+
+
+public class Card extends Product{
+	
+	
+private String cardNumber;
+private double cardBalance;
+
+
+
+
+
+
+}

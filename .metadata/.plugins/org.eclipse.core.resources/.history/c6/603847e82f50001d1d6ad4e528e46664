@@ -1,0 +1,7 @@
+package com.experion.service;
+
+public interface LoanServices {
+public void checkDueDate();
+public void loanAprroval();
+
+}

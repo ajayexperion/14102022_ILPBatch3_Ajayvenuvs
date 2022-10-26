@@ -1,0 +1,7 @@
+package com.experion.entity;
+
+public class Customer {
+private String customerName;
+private String customerCode;
+
+}

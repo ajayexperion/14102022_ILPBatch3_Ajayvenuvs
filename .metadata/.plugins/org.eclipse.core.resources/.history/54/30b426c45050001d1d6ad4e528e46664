@@ -1,0 +1,23 @@
+package com.experion.entity;
+
+import java.util.Scanner;
+
+public class Account {
+	
+	public static BankProducts account() {
+		
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Enter the product code");
+		String costumerID = scanner.nextLine();
+
+		System.out.println("Enter the product name");
+		String customerName = scanner.nextLine();
+		
+		BankProducts accountDetails=new BankProducts(customerName,costumerID,double amount);
+		
+		return accountDetails;
+		
+	}
+
+}

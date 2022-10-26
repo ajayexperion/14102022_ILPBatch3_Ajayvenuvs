@@ -1,0 +1,44 @@
+package com.bank.entity;
+
+import java.util.ArrayList;
+
+public class Customer {
+
+	private String customerName;
+    private ArrayList<Account> AccountList;
+	private String cutomerID;
+	private double amount;
+	public Customer(String customerName, ArrayList<Product> producttList, String cutomerID, double amount) {
+		super();
+		this.customerName = customerName;
+		this.producttList = producttList;
+		this.cutomerID = cutomerID;
+		this.amount = amount;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public ArrayList<Product> getProducttList() {
+		return producttList;
+	}
+	public void setProducttList(ArrayList<Product> producttList) {
+		this.producttList = producttList;
+	}
+	public String getCutomerID() {
+		return cutomerID;
+	}
+	public void setCutomerID(String cutomerID) {
+		this.cutomerID = cutomerID;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	
+	
+}

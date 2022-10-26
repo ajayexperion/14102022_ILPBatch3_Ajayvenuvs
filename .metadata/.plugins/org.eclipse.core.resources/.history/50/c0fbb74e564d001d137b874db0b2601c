@@ -1,0 +1,26 @@
+package com.ilpexperion.assignment1;
+
+import java.util.Scanner;
+
+public class SumOfCubeOfFebinoci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner=new Scanner(System.in);
+		int lastNumber;
+		int firstNumber=1;
+		int secondNumber=1;
+		int thirdNumber;
+		System.out.println("Enter the Nth number: ");
+		lastNumber=scanner.nextInt();
+		System.out.println(firstNumber+secondNumber);
+		for(int index=0;index<lastNumber;index++) {
+			thirdNumber=firstNumber+secondNumber;
+			firstNumber=secondNumber;
+			secondNumber=thirdNumber;
+			System.out.println(firstNumber+secondNumber+thirdNumber);
+		}
+		
+	}
+
+}

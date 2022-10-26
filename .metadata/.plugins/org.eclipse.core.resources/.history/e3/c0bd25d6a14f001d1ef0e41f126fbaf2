@@ -1,0 +1,17 @@
+package com.experion.utility;
+
+import com.experionen.entity.Account;
+
+public class ProductUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Account account =new Account("womens Saving Account","AC1234",10000);
+		Accountservice accountService=new AccountService();
+		
+}
+
+	
+
+}

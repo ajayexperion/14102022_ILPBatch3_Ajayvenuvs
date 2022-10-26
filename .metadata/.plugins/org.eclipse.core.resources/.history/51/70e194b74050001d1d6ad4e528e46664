@@ -1,0 +1,23 @@
+package com.experion.entity;
+
+public class SavingsMaxAccount extends BankProducts {
+
+	private String customerName;
+
+	public SavingsMaxAccount(String customerID, String customerName) {
+		super(customerID);
+		this.customerName = customerName;
+	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	
+	
+	
+
+}

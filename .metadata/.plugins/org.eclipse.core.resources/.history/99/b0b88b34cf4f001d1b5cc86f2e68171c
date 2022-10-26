@@ -1,0 +1,57 @@
+package com.ilpexperion.assignment1;
+
+import java.util.Scanner;
+
+public class RemoveOccuranceOfArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int size;
+		int count=0;
+		boolean flag=false;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the size of the array: ");
+		size=scanner.nextInt();
+		Integer number[] = new Integer[size];
+		Integer temp[] = new Integer[size];
+		System.out.println("Enter The Numbers :");
+		for (int index = 0; index < size; index++) {
+			number[index] = scanner.nextInt();
+		}
+		for (int i = 0; i < number.length; i++) {
+			for (int j = i + 1; j < number.length; j++) {
+				if (number[i]== number[j]) {
+					for(int k=0;k<temp.length;k++) {
+						if(number[i]!=temp[j] ) {	
+							flag = true;
+													}
+					}
+					if(flag) {
+						temp[count]=number[j];
+						count++;
+						flag = false;
+					}
+					
+					
+					
+				}
+				else {
+					temp[count]= number[i];
+					count++;
+				}
+			}
+
+		}
+System.out.println("****Ascending order is******");
+		for (int i = 0; i < number.length; i++) {
+			if(temp[i]!=null) {
+			System.out.println(temp[i]);
+			}
+			}
+		
+	}
+
+	}
+
+

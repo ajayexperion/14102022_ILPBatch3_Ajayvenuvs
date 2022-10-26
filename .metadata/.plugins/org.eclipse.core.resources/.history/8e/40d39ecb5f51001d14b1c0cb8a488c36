@@ -1,0 +1,95 @@
+package com.bank.utility;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.bank.entity.Account;
+import com.bank.entity.Customer;
+import com.bank.entity.Service;
+import com.bank.service.BankService;
+
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		Customer customerList=null;
+		ArrayList<Account> accountList = new ArrayList<Account>();
+		ArrayList<Service> allServicesList = new ArrayList<Service>();
+		allServicesList=BankService.createServices();
+		
+		char mainChoice;
+		do {
+		System.out.println("************Welcome To Bank***************");
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("1.CreateAccount   2. ManageAccount   3.DisplayAccount");
+		int choice=scanner.nextInt();
+		switch(choice) {
+			case 1:	customerList=BankService.createAccount(allServicesList);
+				break;
+		}
+		
+		
+			
+			
+			
+				
+				
+				
+			
+		
+			System.out.println(" _____________________________________________________");
+			System.out.println(" CHOOSE ANY ACCOUNT:");
+		
+				
+				
+				
+				
+				
+			}
+			}
+			
+			
+
+//		if(choice==2) {
+//			
+//			System.out.println("1.DEPOSITE CASH  2.WITHDRWA    3.DISPLAY");
+//			int choicethree=scanner.nextInt();
+//			if(choicethree==1) {
+//				
+//				
+//				System.out.println("Enter your customer ID");
+//				String customerId=scanner.nextLine();
+//				
+//				
+//				
+//				BankService.cashDeposite();
+//			}
+			
+			
+			
+			
+			
+			
+					
+			
+			
+		}
+		
+		
+//		
+//		if(choice==3) {
+//			BankService.displayCustomer(customerList);
+//		
+//		}
+//		
+//		
+//		System.out.println("Do you want to continue y/n");
+//		 mainChoice=scanner.next().charAt(0);
+//		}
+		while(mainChoice=='y');
+		
+}
+
+}
+
+	

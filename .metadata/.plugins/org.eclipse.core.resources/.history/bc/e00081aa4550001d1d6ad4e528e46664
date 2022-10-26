@@ -1,0 +1,26 @@
+package com.experion.entity;
+
+import java.util.Scanner;
+
+public class SavingsMaxAccount implements CashDeposite  {
+
+	
+	private double amount;
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public void cashDeposite() {
+		// TODO Auto-generated method stub
+		
+		Scanner scanner=new Scanner(System.in);
+		
+		System.out.Println("Enter the Amount to Deposite");
+		
+	}
+
+}

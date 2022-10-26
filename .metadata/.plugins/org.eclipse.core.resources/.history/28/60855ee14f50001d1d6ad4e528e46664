@@ -1,0 +1,25 @@
+package com.experion.entity;
+
+import java.util.Scanner;
+
+import com.experion.entity.BankProducts;
+
+public class Createproduct {
+	
+	public static BankProducts createProducts() {
+		
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Enter the product code");
+		String costumerID = scanner.nextLine();
+
+		System.out.println("Enter the product name");
+		String customerName = scanner.nextLine();
+		
+		BankProducts details=new BankProducts(customerName,costumerID,double amount);
+		
+		return details;
+		
+	}
+
+}

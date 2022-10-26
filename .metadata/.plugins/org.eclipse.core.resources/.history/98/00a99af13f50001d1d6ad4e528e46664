@@ -1,0 +1,39 @@
+package com.experion.utility;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.experion.entity.SavingsMaxAccount;
+
+public class BankUtility {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<SavingsMaxAccount>productList=new ArrayList<SavingsMaxAccount>();
+		do {
+		System.out.println("************Welcome To Bank***************");
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("1.CreateAccount   2. ManageAccount   3.Exit");
+		int choice=scanner.nextInt();
+		if(choice==1) {
+			
+			System.out.println("Which Account would you like to Create");
+			System.out.println("1.SAVING MAX ACCOUNT   2. CURRENT ACCOUNT   3.LOAN ACCOUNT");
+			int choicetwo=scanner.nextInt();
+			if(choicetwo==1) {
+				
+			}
+		
+		}
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+	}
+
+}
