@@ -1,8 +1,0 @@
-package com.experion.service;
-
-public interface LoanServices {
-
-	
-	public void checkBalance();
-	public void cashWithdrwal();
-}

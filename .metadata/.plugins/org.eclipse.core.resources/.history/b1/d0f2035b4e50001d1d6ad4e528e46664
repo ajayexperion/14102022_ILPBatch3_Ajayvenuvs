@@ -1,7 +1,0 @@
-package com.experion.entity;
-
-public interface CashDeposite {
-	
-	public void cashDeposite();
-
-}

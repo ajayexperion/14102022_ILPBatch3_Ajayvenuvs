@@ -1,7 +1,0 @@
-package com.experionen.entity;
-
- abstract public class CardAccountService {
-	 
-	 
-
-}

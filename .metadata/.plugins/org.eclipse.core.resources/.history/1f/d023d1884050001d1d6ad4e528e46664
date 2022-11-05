@@ -1,9 +1,0 @@
-package com.experion.entity;
-
-public class CurrentAccount  {
-	private String costumerID;
-private String businessName;
-
-
-
-}

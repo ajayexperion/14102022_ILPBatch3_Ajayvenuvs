@@ -1,7 +1,0 @@
-package com.experionen.entity;
-
-public class Product {
-Private String productCode;
-Private String productName;
-Private String productType;
-}

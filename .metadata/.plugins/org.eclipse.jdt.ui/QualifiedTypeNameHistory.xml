@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.experion.entity.Product"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.experion.service.Service"/>
     <fullyQualifiedTypeName name="com.experionen.entity.Product"/>
     <fullyQualifiedTypeName name="com.experionen.entity.Account"/>
     <fullyQualifiedTypeName name="com.experionen.entity.Card"/>
@@ -14,6 +13,10 @@
     <fullyQualifiedTypeName name="com.experion.entity.Account"/>
     <fullyQualifiedTypeName name="com.experion.service.SavingsMaxAccount"/>
     <fullyQualifiedTypeName name="com.bank.service.CreateAccount"/>
-    <fullyQualifiedTypeName name="com.bank.entity.Customer"/>
     <fullyQualifiedTypeName name="com.bank.entity.Account"/>
+    <fullyQualifiedTypeName name="com.bank.entity.Customer"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.bank.entity.Service"/>
+    <fullyQualifiedTypeName name="com.experion.service.Service"/>
 </qualifiedTypeNameHistroy>

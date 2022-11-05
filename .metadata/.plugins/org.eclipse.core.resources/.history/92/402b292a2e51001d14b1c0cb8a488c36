@@ -1,8 +1,0 @@
-package com.bank.service;
-
-public interface CashDeposite {
-
-	
-	public void cashDeposite();
-	
-}
